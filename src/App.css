@@ -18,6 +18,12 @@ body {
 scrollbar-width: none;
 }
 
+.site-wrapper {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   height: 110px;
   display: flex;
@@ -282,4 +288,17 @@ i[class*='van-type-'] {
 
 .host-nav > a {
   margin-inline-end: 4rem;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #161616;
+  color: #FFF7ED;
+  height: 4.25rem;
+  margin-top: auto;
 }
