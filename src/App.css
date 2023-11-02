@@ -302,3 +302,11 @@ i[class*='van-type-'] {
   height: 4.25rem;
   margin-top: auto;
 }
+
+/* Helpers */
+
+.active-nav {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}
