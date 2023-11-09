@@ -62,7 +62,7 @@ export default function HostVanDetail() {
                         </NavLink>
                     </div>
                 
-                    <Outlet />
+                    <Outlet context={[vanDetail, setVanDetail]}/>
                 </>
                 
             ) : <h2>Loading...</h2>}
