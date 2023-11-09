@@ -368,6 +368,17 @@ i[class*='van-type-'] {
   border-radius: 5px;;
 }
 
+.host-van-details-nav {
+  display: flex;
+  gap: 1rem;
+  margin-block-start: 1rem;
+}
+
+.host-van-details-nav > a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Footer */
 
 .footer {
@@ -391,4 +402,15 @@ i[class*='van-type-'] {
 
 .text-bold {
   font-weight: bold;
+}
+
+.back-button {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.back-button:hover {
+  text-decoration: underline;
 }
