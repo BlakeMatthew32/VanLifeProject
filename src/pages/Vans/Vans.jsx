@@ -2,11 +2,16 @@ import { useEffect, useState } from 'react'
 import Van from "./Van"
 import makeServer from "../../server"
 import '../../App.css'
+import { Link, useSearchParams } from 'react-router-dom'
 
 makeServer()
 
 export default function Vans() {
     const [vans, setVans] = useState()
+
+    const [searchParams, setSearchParams] = useSearchParams()
+
+    console.log(searchParams.get("type"))
 
     useEffect(() => {
         fetch('/api/vans')
